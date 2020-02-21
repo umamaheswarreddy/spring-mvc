@@ -1,0 +1,13 @@
+package com.cts.did.service;
+
+import java.time.LocalDate;
+import java.time.LocalDateTime;
+
+public class GreetNoteProviderTimeBasedImpl implements GreetNoteProvider {
+
+	public String getNote() {
+		LocalDateTime today=LocalDateTime.now();
+		return null;
+	}
+
+}

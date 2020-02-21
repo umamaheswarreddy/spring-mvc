@@ -1,0 +1,10 @@
+package com.cts.did.service;
+
+public class GreetNoteProviderTimeBasedImpl implements GreetNoteProvider {
+
+	public String getNote() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

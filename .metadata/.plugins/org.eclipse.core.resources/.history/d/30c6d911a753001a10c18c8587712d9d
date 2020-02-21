@@ -1,0 +1,37 @@
+package com.cts.did.service;
+
+public class GreetSrviceAdvancedImpl2 implements GreetService {
+	
+	private String greeting;
+	
+	
+	public GreetSrviceAdvancedImpl2(String greeting) {
+		super();
+		this.greeting = greeting;
+	}
+
+
+
+	public GreetSrviceAdvancedImpl2() {
+		super();
+	}
+
+
+
+	public String greet(String username) {
+		
+		return greeting+" "+username;
+	}
+
+
+
+	public String getGreeting() {
+		return greeting;
+	}
+
+	public void setGreeting(String greeting) {
+		this.greeting = greeting;
+	}
+
+
+}

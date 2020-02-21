@@ -1,0 +1,10 @@
+package com.cts.abcd.service;
+
+public class GreetNoteProviderSimpleImpl implements GreetNoteProvider {
+
+	public String getNote() {
+		
+		return "Helllo";
+	}
+
+}

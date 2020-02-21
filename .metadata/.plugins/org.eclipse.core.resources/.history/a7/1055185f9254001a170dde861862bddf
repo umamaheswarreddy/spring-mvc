@@ -1,0 +1,5 @@
+package com.cts.swapp.controller;
+
+public class DefaultController {
+
+}

@@ -1,0 +1,19 @@
+package com.cts.did.ui;
+
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+import com.cts.did.service.GreetService;
+import com.cts.did.service.GreetServiveSimpleImpl;
+
+public class DidApp01 {
+
+	public static void main(String[] args) {
+		
+		ApplicationContext contect=new ClassPathXmlApplicationContext();
+		GreetService gs=new GreetServiveSimpleImpl();
+		System.out.println(gs.greet(" mahesh"));
+		
+	}
+
+}

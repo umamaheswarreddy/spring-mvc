@@ -1,0 +1,10 @@
+package com.cts.did.service;
+
+public class GreetSrviceEnhancedImpl implements GreetService {
+
+	public String greet(String username) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}
